@@ -1,0 +1,16 @@
+.display-container {
+    width: 100%;
+    max-width: 1000px;
+    height: 95px;
+    background-color: #323335;
+    color: #FFFFFF;
+    text-align: end;
+    font-size: 7rem;
+    padding: 20px 15px 0px 0px;
+    box-sizing: border-box;
+    font-weight: 300;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 50px;
+    font-size: 3.4rem;
+    margin-bottom: 30px;
+}
