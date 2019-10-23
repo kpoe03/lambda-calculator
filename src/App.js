@@ -28,29 +28,25 @@ function App() {
     } else {
       setDisplayValue(displayValue => `${displayValue} ${operator} `);
     }
-  }
+  } 
+  
   return (
     <div className="container">
       <Logo />
-      <div className="App">
+      <div className="display-container">
         {/* STEP 4 - Render your components here and be sure to properly import/export all files */}
-        <Display value={ displayValue }/> 
-        <div className="button-container">
-          <div className="specials-container">
+        <Display number={displayValue} />
+        <div className = "button-container">
+          <div className ="specials-container">
             <Specials />
-            </div>
-
-        <div className="numbers-container" >
-          <Numbers addNumber={ addNumber } /> 
+            <Numbers addNumber={addNumber} />
+          </div>
+          <div className = "operators-container">
+            <Operators addOperator={addOperator} />
+          </div>
         </div>
-
-        <div className="operators-container" > 
-          <Operators addOperator={ addOperator } /> 
-        <Specials />
       </div>
     </div>
-    </div>
-</div>
   );
 }
 

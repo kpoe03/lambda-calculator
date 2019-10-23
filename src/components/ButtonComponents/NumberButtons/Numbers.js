@@ -12,7 +12,7 @@ const Numbers = (props) => {
   const [buttonNumbers] = useState(numbers);
 
   return (
-    <div>
+    <div class="numberDiv">
 
       {buttonNumbers.map(number => {
         if(number === '0'){
