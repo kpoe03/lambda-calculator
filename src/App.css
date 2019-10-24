@@ -1,22 +1,97 @@
 .container {
-    background-color: #c00025;
-    width: 100%;
-    max-width: 550px;
-    border-radius: 15px;
+    background-color: #be273b;
+    width: 390px;
+    border-radius: 10px;
     border: 2px solid grey;
     padding-bottom: 25px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    height: 646px;
 }
-.display {
+.App {
     margin-top: 25px;
-    height: 100px;
-    width: 450px;
+    height: 90px;
+    width: 100%;
     border-radius: 50px;
     color: white;
     background-color: #322c2d;
     box-shadow: 1px 1px #322c2d;
     display: flex;
     justify-content: flex-end;
-    align-items: flex-end;
-    padding-right: 8%;
-    font-size: 5.0rem;
+    align-items: center;
+    font-size: 3rem;
+    margin-bottom: 25px;
+    box-sizing: border-box;
   }
+ 
+
+.button-container {
+    display: flex;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.specials-container {
+    width: 73%;
+    flex-direction: row;
+}
+
+.specialsDiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 5px;
+    margin-right: -5px;
+    margin-left: 5px;
+}
+
+.number-btn {
+    background: #184379;
+}
+
+.numberDiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: -5px;;
+}
+
+
+
+.operators-container {
+    width: 27%;
+}
+
+.oper-Btn {
+    background-color: #55cef6;
+}
+
+.operatorsDiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 20px;
+
+}
+
+button {
+    width: 80px;
+    border-radius: 50%;
+    height: 85px;
+    font-size: 2.0rem;
+    color: white;
+    border: 0px;
+    border-bottom: 4px solid #480E14;
+    margin-bottom: 8px;
+}
+
+
+
+
+
+.spec-Btn {
+    background-color: #316bd1;
+}
